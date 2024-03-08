@@ -1,0 +1,79 @@
+.detailDataContainer {
+    max-width: 1380px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 3px 4px 4px rgb(227, 222, 222);
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+}
+
+.valuefield {
+   
+    display: flex;
+    text-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.inputboxs {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 250px;
+    outline: 0; 
+    border-width: 0 0 2px; 
+    border-color: rgb(179, 180, 179);
+}
+
+.content {
+    text-shadow: 3px 4px 4px rgb(194, 194, 194);
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.arrowback {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.backtotablebutton{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 3px 4px 4px rgb(229, 229, 229);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+
+}

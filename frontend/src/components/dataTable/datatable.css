@@ -1,0 +1,115 @@
+.table-container {
+  max-height: 500px;
+  margin-top: 10px;
+  overflow-y: auto;
+  background: rgb(237, 246, 248);
+}
+
+.table-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+thead {
+  height: 40px;
+}
+
+td {
+
+  width: 200px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+  th,
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  th,
+  td {
+    text-align: center;
+  }
+
+  tbody {
+    display: block;
+    overflow-y: auto;
+    max-height: 300px;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  cursor: pointer;
+ 
+
+  &:hover {
+
+  box-shadow: 9px 3px 6px rgba(1, 0, 5, 0.2);
+  color: #a90000;
+  transform: translateY(-6px);
+
+  }
+}
+
+.nodatamessage {
+  display: flex;
+  width: 800px;
+  height: 400px;
+
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+}
+
+.resetbuttonontabel {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #cdc7c7;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 3px 4px 4px rgba(0, 3, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.resetbuttonontabel:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
